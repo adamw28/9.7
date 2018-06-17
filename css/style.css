@@ -1,2 +1,26 @@
 .row {
-  margin: 20px; }
+  margin: 20px; 
+}
+
+img{
+	display:block;
+	margin:auto;
+	height:350px;
+}
+
+#js-newGameElement .row{
+	justify-content: center;
+}
+
+#js-playerPickElement .row, #js-resultsTableElement .row{
+	width:500px;
+	margin:20px auto;
+}
+
+#js-playerPickElement .row{
+	justify-content: space-around;
+}
+
+#js-resultsTableElement .row{
+	justify-content: space-between;
+}
